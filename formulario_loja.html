@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cadastro Loja</title>
+    <link rel="stylesheet" href="style/formulario.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Insira seus dados</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nome do estabelecimento</span>
+            <input type="text" placeholder="Digite o nome do estabelecimento" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Username para o estabelecimento" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="mail" placeholder="Digite seu email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Telefone</span>
+            <input type="number" placeholder="Digite seu telefone" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Senha</span>
+            <input type="password" placeholder="Digite uma senha segura" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirme sua senha</span>
+            <input type="password" placeholder="Digite novamente sua senha" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Endereço</span>
+            <input type="text" placeholder="Endereço do estabelecimento" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Cep</span>
+            <input type="number" placeholder="Cep do estabelecimento" required>
+          </div>
+        </div>
+        <div class="combobox">
+            <label for="categorias">Escolha uma categoria</label>
+            <select name="categorias" id="categoria">
+                <option value="#">Categorias</option>
+                <option value="restaurante">Restaurante</option>
+                <option value="mercado">Mercado</option>
+                <option value="cabeleireiro">Cabeleireiro</option>
+                <option value="salao">Salão de beleza</option>
+                <option value="outros">Outro</option>
+                
+            </select>
+        </div>
+        <div class="button">
+          <input type="submit" value="Finalizar">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
