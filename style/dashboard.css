@@ -154,6 +154,9 @@ aside .top {
     align-items: center;
     justify-content: center;
     margin-top: 1.4rem;
+    background-color: #020202;
+    border-radius: 20% 20% 0 0;
+    padding: 5px;
 }
 
 aside .logo {
@@ -170,13 +173,12 @@ aside .close {
 }
 
 aside .sidebar {
-    background: var(--color-light);
+    background: initial;
     display: flex;
     flex-direction: column;
     height: 86vh;
     position: relative;
     top: 3rem;
-
 }
 
 aside h3 {
@@ -197,6 +199,10 @@ aside .sidebar a {
 aside .sidebar a span {
     font-size: 1.6rem;
     transition: all 300ms ease; 
+}
+
+aside .sidebar a:last-child:hover{
+    color: red;
 }
 
 aside .sidebar .logout-icon {
@@ -385,7 +391,7 @@ main table tbody td {
     color: var(--color-dark-variant);
 }
 
-main table tbody tr:last-child td {
+main table tbody tr:last-child td{
     border: none;
 }
 
@@ -395,6 +401,37 @@ main .recent-orders a {
     margin: 1rem auto;
     color: var(--color-primary);
 }
+
+
+/* graficos */
+.graphBox{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    
+}
+
+.tituloGrafico{
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+
+
+.graphBox .box{
+    background-color: var(--color-white);
+    padding: 10px;
+    margin: 4px;
+    width: 1000px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+
+
 
 /* right */
 .right {

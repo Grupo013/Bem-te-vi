@@ -85,7 +85,7 @@
                     <div class="middle">
                         <div class="left">
                             <h3>Vendas </h3>
-                            <h1>R$25,024</h1>
+                            <h1>R$2270,024</h1>
                         </div>
                         <div class="progress">
                             <svg>
@@ -97,7 +97,7 @@
                         </div>
                     </div>
 
-                    <small class="text-muted">Últimas 24 horas</small>
+                    <small class="text-muted">Últimas atualização a 24 horas</small>
                 </div>
 
                 <div class="expenses">
@@ -105,7 +105,7 @@
                     <div class="middle">
                         <div class="left">
                             <h3>Despesas </h3>
-                            <h1>R$14,160</h1>
+                            <h1>R$607,88</h1>
                         </div>
                         <div class="progress">
                             <svg>
@@ -117,7 +117,7 @@
                         </div>
                     </div>
 
-                    <small class="text-muted">Últimas 24 horas</small>
+                    <small class="text-muted">Últimas atualização a 24 horas</small>
                 </div>
 
                 <div class="income">
@@ -125,7 +125,7 @@
                     <div class="middle">
                         <div class="left">
                             <h3>Renda Total</h3>
-                            <h1>R$10,864</h1>
+                            <h1>R$1663,144</h1>
                         </div>
                         <div class="progress">
                             <svg>
@@ -136,145 +136,186 @@
                             </div>
                         </div>
                     </div>
-                    <small class="text-muted">Últimas 24 horas</small>
+                    <small class="text-muted">Últimas atualização a 24 horas</small>
                 </div>
             </div>
 
-            <div class="recent-orders">
-                <h2>Pedidos Recentes</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Nome do Produto</th>
-                            <th>Número do Produto</th>
-                            <th>Pagamento</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Fone</td>
-                            <td>85631</td>
-                            <td>andamento</td>
-                            <td class="warning">Pendente</td>
-                            <td class="primary">Detalhes</td>
-                        </tr> 
+            <!-- graficos -->
+            <div class="graphBox">
 
-                    </tbody>
-                </table>
-                <a href="#">Mostrar Tudo</a>
-            </div>
-        </main>
-
-
-        <div class="right">
-            <div class="top">
-                <button id="menu-btn">
-                    <img src="imgDash/outline_menu_black_24dp.png" alt="">
-                    <!-- <span class="material-icons">menu</span>  -->
-                </button>
-                <div class="theme-toggler">
-                    <span class="material-icons active">light_mode</span>
-                    <span class="material-icons">dark_mode</span>
+                <div class="box">
+                    <h2 class="tituloGrafico">Balanço Anual</h2>
+                    <canvas class="grafico" id="myChart"></canvas>
                 </div>
-                <div class="profile">
-                    <div class="info">
-                        <p>Camisa 10</p>
-                        <small class="text-muted">Admin</small>
-                    </div>
+
+
+    </div>
+
+    <div class="recent-orders">
+        <h2>Pedidos Recentes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do Produto</th>
+                    <th>Número do Produto</th>
+                    <th>Pagamento</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Notebook</td>
+                    <td>05631</td>
+                    <td>pendente</td>
+                    <td class="warning">Pendente</td>
+                    <td class="primary">Detalhes</td>
+                </tr>
+                <tr>
+                    <td>Fone de ouvido</td>
+                    <td>85631</td>
+                    <td>pendente</td>
+                    <td class="warning">Pendente</td>
+                    <td class="primary">Detalhes</td>
+                </tr>
+                <tr>
+                    <td>Telefone</td>
+                    <td>54631</td>
+                    <td>Realizado</td>
+                    <td class="success">Entregue</td>
+                    <td class="primary">Detalhes</td>
+                </tr>
+                <tr>
+                    <td>Monitor</td>
+                    <td>85631</td>
+                    <td>Realizado</td>
+                    <td class="success">Entregue</td>
+                    <td class="primary">Detalhes</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <a href="#">Mostrar Tudo</a>
+    </div>
+    </main>
+
+
+    <div class="right">
+        <div class="top">
+            <button id="menu-btn">
+                <img src="imgDash/outline_menu_black_24dp.png" alt="">
+                <!-- <span class="material-icons">menu</span>  -->
+            </button>
+            <div class="theme-toggler">
+                <span class="material-icons active">light_mode</span>
+                <span class="material-icons">dark_mode</span>
+            </div>
+            <div class="profile">
+                <div class="info">
+                    <p>Camisa 10</p>
+                    <small class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                    <img src="imgDash/jaja.jpeg">
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-updates">
+            <h2>Atualizações Recentes</h2>
+            <div class="updates">
+                <div class="update">
                     <div class="profile-photo">
-                        <img src="imgDash/jaja.jpeg">
+                        <img src="imgDash/pessoa-1.jpg">
+                    </div>
+                    <div class="message">
+                        <p><b>Andreia</b> Recebeu seu pedido de Fone.</p>
+                        <small class="text-muted"> 2 minutos atrás.</small>
                     </div>
                 </div>
-            </div>
-
-            <div class="recent-updates">
-                <h2>Atualizações Recentes</h2>
-                <div class="updates">
-                    <div class="update">
-                        <div class="profile-photo">
-                            <img src="imgDash/pessoa-1.jpg">
-                        </div>
-                        <div class="message">
-                            <p><b>Andreia</b> Recebeu seu pedido de Fone.</p>
-                            <small class="text-muted"> 2 minutos atrás.</small>
-                        </div>
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="imgDash/pessoa-2.png">
                     </div>
-                    <div class="update">
-                        <div class="profile-photo">
-                            <img src="imgDash/pessoa-2.png">
-                        </div>
-                        <div class="message">
-                            <p><b>Andreia</b> Recebeu seu pedido de Fone.</p>
-                            <small class="text-muted"> 2 minutos atrás.</small>
-                        </div>
-                    </div>
-                    <div class="update">
-                        <div class="profile-photo">
-                            <img src="imgDash/pessoa-3.jpg">
-                        </div>
-                        <div class="message">
-                            <p><b>Andreia</b> Recebeu seu pedido de Fone.</p>
-                            <small class="text-muted"> 2 minutos atrás.</small>
-                        </div>
+                    <div class="message">
+                        <p><b>Andreia</b> Recebeu seu pedido de Fone.</p>
+                        <small class="text-muted"> 2 minutos atrás.</small>
                     </div>
                 </div>
-            </div>
-
-            <div class="sales-analytics">
-                <h2>Análise de Vendas</h2>
-                <div class="item online">
-                    <div class="icon">
-                        <span class="material-icons">shopping_cart</span>
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="imgDash/pessoa-3.jpg">
                     </div>
-                    <div class="right">
-                        <div class="info">
-                            <h3>Pedidos online</h3>
-                            <small class="text-muted">Últimas 24 horas.</small>
-                        </div>
-                        <h5 class="sucess">-17%</h5>
-                        <h3>1100</h3>
-                    </div>
-                </div>
-                <div class="item offline">
-                    <div class="icon">
-                        <span class="material-icons">local_mall</span>
-                    </div>
-                    <div class="right">
-                        <div class="info">
-                            <h3>Pedidos online</h3>
-                            <small class="text-muted">Últimas 24 horas.</small>
-                        </div>
-                        <h5 class="danger">-17%</h5>
-                        <h3>1100</h3>
-                    </div>
-                </div>
-                <div class="item customers">
-                    <div class="icon">
-                        <span class="material-icons">person</span>
-                    </div>
-                    <div class="right">
-                        <div class="info">
-                            <h3>Novos Clientes</h3>
-                            <small class="text-muted">Últimas 24 horas.</small>
-                        </div>
-                        <h5 class="sucess">+25%</h5>
-                        <h3>849</h3>
-                    </div>
-                </div>
-                <div class="item add-product">
-                    <div>
-                        <span class="material-icons">add</span>
-                        <h3>Adicionar Produto</h3>
+                    <div class="message">
+                        <p><b>Andreia</b> Recebeu seu pedido de Fone.</p>
+                        <small class="text-muted"> 2 minutos atrás.</small>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="sales-analytics">
+            <h2>Análise de Vendas</h2>
+            <div class="item online">
+                <div class="icon">
+                    <span class="material-icons">shopping_cart</span>
+                </div>
+                <div class="right">
+                    <div class="info">
+                        <h3>Pedidos online</h3>
+                        <small class="text-muted">Últimas 24 horas.</small>
+                    </div>
+                    <h5 class="sucess">-17%</h5>
+                    <h3>1100</h3>
+                </div>
+            </div>
+            <div class="item offline">
+                <div class="icon">
+                    <span class="material-icons">local_mall</span>
+                </div>
+                <div class="right">
+                    <div class="info">
+                        <h3>Pedidos online</h3>
+                        <small class="text-muted">Últimas 24 horas.</small>
+                    </div>
+                    <h5 class="danger">-17%</h5>
+                    <h3>1100</h3>
+                </div>
+            </div>
+            <div class="item customers">
+                <div class="icon">
+                    <span class="material-icons">person</span>
+                </div>
+                <div class="right">
+                    <div class="info">
+                        <h3>Novos Clientes</h3>
+                        <small class="text-muted">Últimas 24 horas.</small>
+                    </div>
+                    <h5 class="sucess">+25%</h5>
+                    <h3>849</h3>
+                </div>
+            </div>
+            <div class="item add-product">
+                <div>
+                    <span class="material-icons">add</span>
+                    <h3>Adicionar Produto</h3>
+                </div>
+            </div>
+        </div>
     </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
 
     <script src="js/orders.js"></script>
     <script src="js/dashboard.js"></script>
+
+    <script src="js/my_Chart.js"></script>
+    <script src="js/grafico2.js"></script>
+
 </body>
 
 </html>
