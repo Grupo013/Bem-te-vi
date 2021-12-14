@@ -230,6 +230,16 @@ main .container .left .profile {
   background: var(--color-primary);
 }
 
+.desh, #desh{
+  color: gold;
+}
+
+#black{
+  color: var(--color-black);
+}
+
+
+
 .left .sidebar .menu-item:first-child.active {
   border-top-left-radius: var(--card-border-radius);
   overflow: hidden;
